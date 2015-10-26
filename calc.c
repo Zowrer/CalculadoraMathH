@@ -25,6 +25,9 @@
 #include <math.h>
 #include <libintl.h>
 #include <locale.h>
+#include <signal.h>
+#include <unistd.h>
+
 #include "my_lib.h"
 
 ///definiciones
@@ -37,6 +40,15 @@ int main(int argc, char* argv[]){
 
     //variable para leer la operacion elegida
     int operacion;
+
+    //Cambio del manejo de señales, mensaje de error en caso de que no sea posible
+	if (signal (SIGINT, myCatch) == SIG_ERR){
+		perror ("No se puede cambiar SIGINT");
+	}
+
+    if (signal (SIGSEGV	, myCatch) == SIG_ERR){
+		perror ("No se puede cambiar SIGTERM");
+	}
 
     //Mensaje de bienvenida
     printf(_("\n\n¡Bienvenido, estas ejecutando una calculadora desarrollada por el equipo Icazas!\r\n\n"));

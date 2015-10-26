@@ -6,7 +6,8 @@
 //#include <math.h>
 #include <libintl.h>
 #include <locale.h>
-
+#include <signal.h>
+#include <unistd.h>
 
 ///definiciones
 #define _(cadena) gettext(cadena)
@@ -119,4 +120,16 @@ int readInt(int base, int max){
     /* aplico el signo*/
     result *= f;
     return result;
+}
+
+void myCatch (int numS){
+    if (numS == SIGINT) {
+        printf(_("\nLo lamento, nos puedes salir con la combinacion de teclas Crtl+C"));
+        printf(_("\nIntenta con la opcion Predefinida\n\n"));
+    }
+
+    if (numS == SIGSEGV) {
+        printf(_("\nError:"));
+        printf(_("\nViolacion de segmentacion\n\n"));
+    }
 }
