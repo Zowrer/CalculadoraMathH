@@ -1,0 +1,110 @@
+
+/************************************************
+*	BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA  	*
+*	FACULTAD DE CIENCIAS DE LA COMPUTACIÓN   	*
+*                                               *
+*   Curso Intel-BuUAP                           *
+*												*
+*   Desarroladores:                             *
+*                                               *
+*	Yolanda Alvarez                         	*
+*                                               *
+*	Pedro Ambrosio                             	*
+*                                               *
+*	Raul Arias                                 	*
+*                                               *
+*	Monica Canizo                              	*
+*                                               *
+*	Ignacio Acevedo Carrera                  	*
+*	zourer@hotmail.com							*
+*	                                        	*
+************************************************/
+
+/// Librerias
+#include <stdio.h>
+#include <math.h>
+#include <libintl.h>
+#include <locale.h>
+#include "my_lib.h"
+
+///definiciones
+#define _(cadena) gettext(cadena)
+
+int main(int argc, char* argv[]){
+    // declaracion de variables locales
+    //variable para leer la categoria de funciones
+    int categoria;
+
+    //variable para leer la operacion elegida
+    int operacion;
+
+    //Mensaje de bienvenida
+    printf(_("\n\n¡Bienvenido, estas ejecutando una calculadora desarrollada por el equipo Icazas!\r\n\n"));
+
+    //Ciclo principal
+    do{
+        //Desplegamos en pantalla el menu de categorias
+        mostrarMenu ();
+
+        //Leemos un digito en base 10 de maximo 2 caracteres
+        categoria = readInt(10,2);
+
+        //Si el valor leido es un numero evaluamos el menu
+        //De lo contrario mostramos mensaje de error
+        if (categoria != -2147483648) {
+            //Si la opcion elegida no es salida
+            //desplegamos en pantalla el submenu de operaciones seleccionadas
+            //if (categoria != 10) {
+            //    mostrarSubMenu (categoria);
+            //}
+
+            //Leemos un digito en base 10 de maximo 2 caracteres
+            //operacion = readInt(10,2);
+
+            //Si el valor leido es un numero evaluamos el submenu
+            //De lo contrario mostramos mensaje de error
+            //if (operacion != NULL){
+                //Con la categoria y la operacion elegidas evaluamos la funcion adecuada
+                switch (categoria) {
+                    case 0:
+                    case 1:
+                    case 2:
+                    case 3:
+                    case 4:
+                    case 5:
+                    case 6:
+                    case 7:
+                    case 8:
+                    case 9:{
+                        printf(_("\n\nError: Lo lamento aún está en desarrollo :( \n"));
+                        printf(_("\nEs culpa de Peter XD \n\n"));
+                        break;
+                    }
+
+                    case 10:{
+                        printf(_("\n\n¡Gracias por usar nuestra calculadora!\r\n"));
+                        printf(_("¡Regresa Pronto!\r\n\n"));
+                        break;
+                    }
+
+                    default:{
+                        printf(_("\n\n¡Ingresaste una opcion no valida!\r\n"));
+                        printf(_("¡Intenta de nuevo!\r\n\n"));
+                        break;
+                    }
+                }
+            /*}
+            else{
+                printf(_("\n\n¡Error: no ingresaste un número!\r\n"));
+                printf(_("¡Intenta de nuevo!\r\n\n"));
+            }*/
+        }
+        else{
+            printf(_("\n\n¡Error: no ingresaste un número!\r\n"));
+            printf(_("¡Intenta de nuevo!\r\n\n"));
+        }
+
+
+    }while (categoria != 10);
+    return 0;
+}
