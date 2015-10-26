@@ -29,7 +29,7 @@ void mostrarMenu (){
     printf(_("[7] Minimos, Maximos y Diferencia\n"));
     printf(_("[8] Clasificacion y Comparacion\n"));
     printf(_("[9] Otras\n"));
-    printf(_("[10] Salir\r\n\n"));
+    printf(_("[10] Salir\n\n"));
 }
 
 /*

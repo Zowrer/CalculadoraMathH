@@ -16,7 +16,7 @@
 *	Monica Canizo                              	*
 *                                               *
 *	Ignacio Acevedo Carrera                  	*
-*	zourer@hotmail.com							*
+*	zourer@gmail.com							*
 *	                                        	*
 ************************************************/
 
@@ -51,7 +51,7 @@ int main(int argc, char* argv[]){
 	}
 
     //Mensaje de bienvenida
-    printf(_("\n\n¡Bienvenido, estas ejecutando una calculadora desarrollada por el equipo Icazas!\r\n\n"));
+    printf(_("\n\n¡Bienvenido, estas ejecutando una calculadora desarrollada por el equipo Icazas!\n\n"));
 
     //Ciclo principal
     do{
@@ -94,14 +94,14 @@ int main(int argc, char* argv[]){
                     }
 
                     case 10:{
-                        printf(_("\n\n¡Gracias por usar nuestra calculadora!\r\n"));
-                        printf(_("¡Regresa Pronto!\r\n\n"));
+                        printf(_("\n\n¡Gracias por usar nuestra calculadora!\n"));
+                        printf(_("¡Regresa Pronto!\n\n"));
                         break;
                     }
 
                     default:{
-                        printf(_("\n\n¡Ingresaste una opcion no valida!\r\n"));
-                        printf(_("¡Intenta de nuevo!\r\n\n"));
+                        printf(_("\n\n¡Ingresaste una opcion no valida!\n"));
+                        printf(_("¡Intenta de nuevo!\n\n"));
                         break;
                     }
                 }
@@ -112,8 +112,8 @@ int main(int argc, char* argv[]){
             }*/
         }
         else{
-            printf(_("\n\n¡Error: no ingresaste un número!\r\n"));
-            printf(_("¡Intenta de nuevo!\r\n\n"));
+            printf(_("\n\n¡Error: no ingresaste un número!\n"));
+            printf(_("¡Intenta de nuevo!\n\n"));
         }
 
 
