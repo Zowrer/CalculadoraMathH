@@ -168,7 +168,15 @@ void suma (){
 * [2]
 */
 void resta (){
+    int a,b,c;
     printf(_("\nSubtraction \n"));
+    printf(_("\n1st Number: "));
+    scanf("%d",&a);
+    printf(_("\n2nd Number: "));
+    scanf("%d",&b);
+    c = a - b;
+    printf(_("\nResult: "));
+    printf("%d\n\n",c);
 }
 
 /**
@@ -216,7 +224,12 @@ void division(){
 * [5]
 */
 void seno (){
+    double x;
     printf(_("\nSine \n"));
+    printf(_("\nNumber: "));
+    scanf("%lf",&x);
+    printf(_("\nResult in radians: "));
+    printf("%lf\n\n",sin(x));
 }
 
 /**
@@ -290,7 +303,12 @@ void arcoCoseno(){
 * [10]
 */
 void arcoTan (){
+    double x;
     printf(_("\n Arc tangent \n"));
+    printf(_("\nNumber: "));
+    scanf("%lf",&x);
+    printf(_("\nResult in radians: "));
+    printf("%lf\n\n",atan(x));
 }
 
 /**
@@ -363,7 +381,12 @@ void atanDos (){
 * [15]
 */
 void expon (){
+    double x;
     printf(_("\nExponential \n"));
+    printf(_("\nNumber: "));
+    scanf ("%lf", &x);
+    printf(_("\nResult: "));
+    printf("%lf\n\n", exp(x));
 }
 
 /**
@@ -388,7 +411,15 @@ void logaritmoNatural (){
 * [17]
 */
 void decLog (){
+    double x,y;
     printf(_("\nDecimal logarithm \n"));
+    printf(_("\nNumber: "));
+    scanf ("%lf", &x);
+    printf(_("\nExponential: "));
+    scanf ("%lf", &y);
+    printf(_("\nResult: "));
+    printf("%lf\n\n", ldexp(x,y));
+
 }
 
 /**
