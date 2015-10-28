@@ -3,7 +3,7 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
-//#include <math.h>
+#include <math.h>
 #include <libintl.h>
 #include <locale.h>
 #include <signal.h>
@@ -46,35 +46,6 @@ void mostrarMenu (){
     printf(_("[25] ldexp\n"));
     printf(_("[26] modf\n"));
     printf(_("[27] Salir\n\n"));
-}
-
-/*
-* Despliega en pantalla un submenu con las opciones de funciones por categoria
-*/
-void mostrarSubMenu (int op){
-    printf(_("\n\nEl siguiente menu muestra las operaciones disponibles en esta categoria\n"));
-    printf(_("Para seleccionar una operacion\n"));
-    printf(_("¡Inserta el número correspondiente!\n\n"));
-    switch (op) {
-        case 0:{
-            printf(_("[0] Coseno\n"));
-            break;
-        }
-
-        case 1:
-        case 2:
-        case 3:
-        case 4:
-        case 5:
-        case 6:
-        case 7:
-        case 8:
-        case 9:
-        default:{
-            printf(_("\nError: Lo lamento aún está en desarrollo :( \n"));
-            break;
-        }
-    }
 }
 
 int readInt(int base, int max){
@@ -123,7 +94,7 @@ int readInt(int base, int max){
             ch = getchar();
         }
         //Retornamos el valor maximo negativo como codigo de error
-        return -2147483648;
+        return myNaN ();
     }
 
     //Si leimos digitos transformamos el string en un entero según la base.
@@ -148,6 +119,10 @@ void myCatch (int numS){
         printf(_("\nError:"));
         printf(_("\nViolacion de segmentacion\n\n"));
     }
+}
+
+int myNaN (){
+    return (pow(2,(sizeof(int)*8))+2);
 }
 
 void suma (){
@@ -216,4 +191,3 @@ void tanhip(){
     printf(_("\nResultado: "));
     printf("%lf\n\n",b);
 }
-

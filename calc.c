@@ -63,7 +63,7 @@ int main(int argc, char* argv[]){
 
         //Si el valor leido es un numero evaluamos el menu
         //De lo contrario mostramos mensaje de error
-        if (categoria != -2147483648) {
+        if (categoria != myNaN ()) {
             //Si la opcion elegida no es salida
             //desplegamos en pantalla el submenu de operaciones seleccionadas
             //if (categoria != 10) {
@@ -79,8 +79,8 @@ int main(int argc, char* argv[]){
                 //Con la categoria y la operacion elegidas evaluamos la funcion adecuada
                 switch (categoria) {
                     case 1:{
-		    	suma();
-			break;
+                        suma();
+                        break;
                     }
                     case 2:
                     case 3:
@@ -89,9 +89,9 @@ int main(int argc, char* argv[]){
                     case 6:
                     case 7:
                     case 8:{
-		    	arcoseno();
-			break;
-		    }
+                        arcoseno();
+                        break;
+                    }
                     case 9:{
                         printf(_("\n\nError: Lo lamento aún está en desarrollo :( \n"));
                         printf(_("\nEs culpa de Peter XD \n\n"));
@@ -100,30 +100,29 @@ int main(int argc, char* argv[]){
                     case 10:
                     case 11:
                     case 12:{
-			coship();
-			break;
-		    }
+                        coship();
+                        break;
+                    }
                     case 13:{
-			tanhip(); 
-			break;
-		    }
+                        tanhip();
+                        break;
+                    }
                     case 14:
                     case 15:
                     case 16:
                     case 17:
                     case 18:
-                    case 19:{
-			potencia();
-			break;
-		    }
+                    case 19:{ potencia();
+                        break;
+                    }
                     case 20:
                     case 21:
                     case 22:
                     case 23:
                     case 24:{
-			frexpre();
-			break;
-		    }
+                        frexpre();
+                        break;
+                    }
                     case 25:
                     case 26:
                     case 27:{

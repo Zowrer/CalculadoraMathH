@@ -2,8 +2,14 @@
 #define _MY_LIB_H
 
 void mostrarMenu ();
-void mostrarSubMenu (int op);
 int readInt(int base, int max);
 void myCatch (int numS);
+int myNaN ();
+void suma ();
+void arcoseno();
+void coship();
+void frexpre();
+void potencia();
+void tanhip();
 
 #endif
