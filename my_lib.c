@@ -19,17 +19,33 @@ void mostrarMenu (){
     printf(_("El siguiente menu muestra las categorias de operaciones disponibles\n"));
     printf(_("Para seleccionar una categoria\n"));
     printf(_("¡Inserta el número correspondiente!\n\n"));
-    printf(_("[0] Trigonometricas\n"));
-    printf(_("[1] Hiperbolicas\n"));
-    printf(_("[2] Exponenciales\n"));
-    printf(_("[3] Potencia\n"));
-    printf(_("[4] Error y Gama\n"));
-    printf(_("[5] Redonde y Residuo\n"));
-    printf(_("[6] Punto Flotante\n"));
-    printf(_("[7] Minimos, Maximos y Diferencia\n"));
-    printf(_("[8] Clasificacion y Comparacion\n"));
-    printf(_("[9] Otras\n"));
-    printf(_("[10] Salir\n\n"));
+    printf(_("[1] Suma\n"));
+    printf(_("[2] Resta\n"));
+    printf(_("[3] Multiplicación\n"));
+    printf(_("[4] División\n"));
+    printf(_("[5] Seno\n"));
+    printf(_("[6] Coseno\n"));
+    printf(_("[7] Tangente\n"));
+    printf(_("[8] Secante\n"));
+    printf(_("[9] Cosecante\n"));
+    printf(_("[10] Cotangente\n"));
+    printf(_("[11] Seno hiperbólico\n"));
+    printf(_("[12] Coseno hiperbólico\n"));
+    printf(_("[13] Tangente hiperbólica\n"));
+    printf(_("[14] Arco tangente de y/x (atan2)\n"));
+    printf(_("[15] Exponencial\n"));
+    printf(_("[16] Logaritmo natural\n"));
+    printf(_("[17] Logaritmo base 10\n"));
+    printf(_("[18] Raiz cuadrada\n"));
+    printf(_("[19] Potencia\n"));
+    printf(_("[20] Valor absoluto\n"));
+    printf(_("[21] Resto de coma flotante (fmod)\n"));
+    printf(_("[22] Funcion techo\n"));
+    printf(_("[23] Funcion piso\n"));
+    printf(_("[24] frexp\n"));
+    printf(_("[25] ldexp\n"));
+    printf(_("[26] modf\n"));
+    printf(_("[27] Salir\n\n"));
 }
 
 /*
