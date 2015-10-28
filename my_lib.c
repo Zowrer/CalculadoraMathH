@@ -16,36 +16,36 @@
 * Despliega en pantalla un menu con las opciones de Categorias
 */
 void mostrarMenu (){
-    printf(_("El siguiente menu muestra las categorias de operaciones disponibles\n"));
-    printf(_("Para seleccionar una categoria\n"));
-    printf(_("¡Inserta el número correspondiente!\n\n"));
-    printf(_("[1] Suma\n"));
-    printf(_("[2] Resta\n"));
-    printf(_("[3] Multiplicación\n"));
-    printf(_("[4] División\n"));
-    printf(_("[5] Seno\n"));
-    printf(_("[6] Coseno\n"));
-    printf(_("[7] Tangente\n"));
-    printf(_("[8] Arco seno\n"));
-    printf(_("[9] Arco coseno\n"));
-    printf(_("[10] Arco tangente\n"));
-    printf(_("[11] Seno hiperbólico\n"));
-    printf(_("[12] Coseno hiperbólico\n"));
-    printf(_("[13] Tangente hiperbólica\n"));
-    printf(_("[14] Arco tangente de y/x (atan2)\n"));
-    printf(_("[15] Exponencial\n"));
-    printf(_("[16] Logaritmo natural\n"));
-    printf(_("[17] Logaritmo base 10\n"));
-    printf(_("[18] Raiz cuadrada\n"));
-    printf(_("[19] Potencia\n"));
-    printf(_("[20] Valor absoluto\n"));
-    printf(_("[21] Resto de coma flotante (fmod)\n"));
-    printf(_("[22] Funcion techo\n"));
-    printf(_("[23] Funcion piso\n"));
+    printf(_("The following menu displays the available operations\n"));
+    printf(_("To select a category\n"));
+    printf(_("Enter the corresponding number!\n\n"));
+    printf(_("[1] Addition\n"));
+    printf(_("[2] Subtraction\n"));
+    printf(_("[3] Multiplication\n"));
+    printf(_("[4] Division\n"));
+    printf(_("[5] Sine\n"));
+    printf(_("[6] Cosine\n"));
+    printf(_("[7] Tangent\n"));
+    printf(_("[8] Arc sine\n"));
+    printf(_("[9] Arc cosine\n"));
+    printf(_("[10] Arc tangent\n"));
+    printf(_("[11] Hyperbolic sine\n"));
+    printf(_("[12] Hyperbolic cosine\n"));
+    printf(_("[13] Hyperbolic tangent\n"));
+    printf(_("[14] Arc tangent y/x (atan2)\n"));
+    printf(_("[15] Exponential\n"));
+    printf(_("[16] Natural logarithm\n"));
+    printf(_("[17] Decimal logarithm\n"));
+    printf(_("[18] Square root\n"));
+    printf(_("[19] Power\n"));
+    printf(_("[20] Absolute value\n"));
+    printf(_("[21] floating point remainder (fmod)\n"));
+    printf(_("[22] Ceil function\n"));
+    printf(_("[23] Floor function\n"));
     printf(_("[24] frexp\n"));
     printf(_("[25] ldexp\n"));
     printf(_("[26] modf\n"));
-    printf(_("[27] Salir\n\n"));
+    printf(_("[27] Exit\n\n"));
 }
 
 int readInt(int base, int max){
@@ -111,13 +111,13 @@ int readInt(int base, int max){
 
 void myCatch (int numS){
     if (numS == SIGINT) {
-        printf(_("\nLo lamento, nos puedes salir con la combinacion de teclas Crtl+C"));
-        printf(_("\nIntenta con la opcion Predefinida\n\n"));
+        printf(_("\nSorry, you can not exit with the key combination Ctrl + C"));
+        printf(_("\nTry the default setting\n\n"));
     }
 
     if (numS == SIGSEGV) {
         printf(_("\nError:"));
-        printf(_("\nViolacion de segmentacion\n\n"));
+        printf(_("\nSegmentation fault\n\n"));
     }
 }
 
@@ -127,33 +127,33 @@ int myNaN (){
 
 void suma (){
     int a,b,c;
-    printf(_("\nSuma \n"));
-    printf(_("\nNumero 1: "));
+    printf(_("\nAddition \n"));
+    printf(_("\n1st Number: "));
     scanf("%d",&a);
-    printf(_("\nNumero 2: "));
+    printf(_("\n2nd Number: "));
     scanf("%d",&b);
     c = a + b;
-    printf(_("\nResultado: "));
+    printf(_("\nResult: "));
     printf("%d\n\n",c);
 }
 
 void arcoseno(){
     double a,b;
-    printf(_("\nArco seno \n"));
-    printf(_("\nNumero: "));
+    printf(_("\nArc sine \n"));
+    printf(_("\nNumber: "));
     scanf("%lf",&a);
     b=asin(a);
-    printf(_("\nResultado: "));
+    printf(_("\nResult: "));
     printf("%lf\n\n",b);
 }
 
 void coship(){
     double a,b;
-    printf(_("\nCoseno hiperbolico \n"));
-    printf(_("\nNumero: "));
+    printf(_("\nHyperbolic cosine \n"));
+    printf(_("\nNumber: "));
     scanf("%lf",&a);
     b=cosh(a);
-    printf(_("\nResultado: "));
+    printf(_("\nResult: "));
     printf("%lf\n\n",b);
 }
 
@@ -161,33 +161,33 @@ void frexpre(){
     double a,c;
     int b;
     printf(_("\nfrexp \n"));
-    printf(_("\nNumero: "));
+    printf(_("\nNumber: "));
     scanf("%lf",&a);
-    printf(_("\nExponente: "));
+    printf(_("\nExponent: "));
     scanf("%d",&b);
     c=frexp(a,&b);
-    printf(_("\nResultado: "));
+    printf(_("\nResult: "));
     printf("%lf\n\n",c);
 }
 
 void potencia(){
     double a,b,c;
-    printf(_("\nPotencia \n"));
-    printf(_("\nNumero: "));
+    printf(_("\nPower \n"));
+    printf(_("\nNumber: "));
     scanf("%lf",&a);
-    printf(_("\nPotencia: "));
+    printf(_("\nPower: "));
     scanf("%lf",&b);
     c=pow(a,b);
-    printf(_("\nResultado: "));
+    printf(_("\nResult: "));
     printf("%lf\n\n",c);
 }
 
 void tanhip(){
     double a,b;
-    printf(_("\nTangente hiperbolica \n"));
-    printf(_("\nNumero: "));
+    printf(_("\nHyperbolic tangent \n"));
+    printf(_("\nNumber: "));
     scanf("%lf",&a);
     b=tanh(a);
-    printf(_("\nResultado: "));
+    printf(_("\nResult: "));
     printf("%lf\n\n",b);
 }
