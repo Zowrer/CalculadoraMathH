@@ -11,5 +11,12 @@ void coship();
 void frexpre();
 void potencia();
 void tanhip();
+void multiplicacion();
+void raizCuadrada();
+void funcionPiso();
+void atanDos();
+void valorAbsoluto();
+void logaritmoNatural();
+void senoHiper();
 
 #endif
