@@ -38,20 +38,17 @@ int main(int argc, char* argv[]){
     //variable para leer la categoria de funciones
     int categoria;
 
-    //variable para leer la operacion elegida
-    int operacion;
-
     //Cambio del manejo de señales, mensaje de error en caso de que no sea posible
 	if (signal (SIGINT, myCatch) == SIG_ERR){
-		perror ("No se puede cambiar SIGINT");
+		perror ("SIGINT can not change");
 	}
 
     if (signal (SIGSEGV	, myCatch) == SIG_ERR){
-		perror ("No se puede cambiar SIGTERM");
+		perror ("SIGTERM can not change");
 	}
 
     //Mensaje de bienvenida
-    printf(_("\n\n¡Bienvenido, estas ejecutando una calculadora desarrollada por el equipo Icazas!\n\n"));
+    printf(_("\n\nWelcome, you are running a calculator developed by the team Icazas!\n\n"));
 
     //Ciclo principal
     do{
@@ -63,19 +60,8 @@ int main(int argc, char* argv[]){
 
         //Si el valor leido es un numero evaluamos el menu
         //De lo contrario mostramos mensaje de error
-        if (categoria != myNaN ()) {
-            //Si la opcion elegida no es salida
-            //desplegamos en pantalla el submenu de operaciones seleccionadas
-            //if (categoria != 10) {
-            //    mostrarSubMenu (categoria);
-            //}
-
-            //Leemos un digito en base 10 de maximo 2 caracteres
-            //operacion = readInt(10,2);
-
-            //Si el valor leido es un numero evaluamos el submenu
-            //De lo contrario mostramos mensaje de error
-            //if (operacion != NULL){
+        if (categoria != myNaN ()) {            
+                       
                 //Con la categoria y la operacion elegidas evaluamos la funcion adecuada
                 switch (categoria) {
                     case 1:{
@@ -93,8 +79,6 @@ int main(int argc, char* argv[]){
                         break;
                     }
                     case 9:{
-                        printf(_("\n\nError: Lo lamento aún está en desarrollo :( \n"));
-                        printf(_("\nEs culpa de Peter XD \n\n"));
                         break;
                     }
                     case 10:
@@ -126,29 +110,22 @@ int main(int argc, char* argv[]){
                     case 25:
                     case 26:
                     case 27:{
-                        printf(_("\n\n¡Gracias por usar nuestra calculadora!\n"));
-                        printf(_("¡Regresa Pronto!\n\n"));
+                        printf(_("\n\nThank you for using our calculator!\n"));
+                        printf(_("Come back soon!\n\n"));
                         break;
                     }
 
                     default:{
-                        printf(_("\n\n¡Ingresaste una opcion no valida!\n"));
-                        printf(_("¡Intenta de nuevo!\n\n"));
+                        printf(_("\n\nYou entered an invalid option!\n"));
+                        printf(_("Try again!\n\n"));
                         break;
                     }
-                }
-            /*}
-            else{
-                printf(_("\n\n¡Error: no ingresaste un número!\r\n"));
-                printf(_("¡Intenta de nuevo!\r\n\n"));
-            }*/
+                }            
         }
         else{
-            printf(_("\n\n¡Error: no ingresaste un número!\n"));
-            printf(_("¡Intenta de nuevo!\n\n"));
+            printf(_("\n\nError: It is not a number!\n"));
+            printf(_("Try again!\n\n"));
         }
-
-
     }while (categoria != 27);
     return 0;
 }
