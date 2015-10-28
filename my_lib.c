@@ -9,6 +9,8 @@
 #include <signal.h>
 #include <unistd.h>
 
+#include "my_lib.h"
+
 ///definiciones
 #define _(cadena) gettext(cadena)
 
@@ -622,15 +624,4 @@ void ldexpe(){
 */
 void moduloF(){
     printf("\nmodf\n");
-}
-
-
-void tanhip(){
-    double a,b;
-    printf(_("\nHyperbolic tangent \n"));
-    printf(_("\nNumber: "));
-    scanf("%lf",&a);
-    b=tanh(a);
-    printf(_("\nResult: "));
-    printf("%lf\n\n",b);
 }
