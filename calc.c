@@ -78,15 +78,20 @@ int main(int argc, char* argv[]){
             //if (operacion != NULL){
                 //Con la categoria y la operacion elegidas evaluamos la funcion adecuada
                 switch (categoria) {
-                    case 0:
-                    case 1:
+                    case 1:{
+		    	suma();
+			break;
+                    }
                     case 2:
                     case 3:
                     case 4:
                     case 5:
                     case 6:
                     case 7:
-                    case 8:
+                    case 8:{
+		    	arcoseno();
+			break;
+		    }
                     case 9:{
                         printf(_("\n\nError: Lo lamento aún está en desarrollo :( \n"));
                         printf(_("\nEs culpa de Peter XD \n\n"));
@@ -94,19 +99,31 @@ int main(int argc, char* argv[]){
                     }
                     case 10:
                     case 11:
-                    case 12:
-                    case 13:
+                    case 12:{
+			coship();
+			break;
+		    }
+                    case 13:{
+			tanhip(); 
+			break;
+		    }
                     case 14:
                     case 15:
                     case 16:
                     case 17:
                     case 18:
-                    case 19:
+                    case 19:{
+			potencia();
+			break;
+		    }
                     case 20:
                     case 21:
                     case 22:
                     case 23:
-                    case 24:
+                    case 24:{
+			frexpre();
+			break;
+		    }
                     case 25:
                     case 26:
                     case 27:{

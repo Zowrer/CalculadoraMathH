@@ -149,3 +149,71 @@ void myCatch (int numS){
         printf(_("\nViolacion de segmentacion\n\n"));
     }
 }
+
+void suma (){
+    int a,b,c;
+    printf(_("\nSuma \n"));
+    printf(_("\nNumero 1: "));
+    scanf("%d",&a);
+    printf(_("\nNumero 2: "));
+    scanf("%d",&b);
+    c = a + b;
+    printf(_("\nResultado: "));
+    printf("%d\n\n",c);
+}
+
+void arcoseno(){
+    double a,b;
+    printf(_("\nArco seno \n"));
+    printf(_("\nNumero: "));
+    scanf("%lf",&a);
+    b=asin(a);
+    printf(_("\nResultado: "));
+    printf("%lf\n\n",b);
+}
+
+void coship(){
+    double a,b;
+    printf(_("\nCoseno hiperbolico \n"));
+    printf(_("\nNumero: "));
+    scanf("%lf",&a);
+    b=cosh(a);
+    printf(_("\nResultado: "));
+    printf("%lf\n\n",b);
+}
+
+void frexpre(){
+    double a,c;
+    int b;
+    printf(_("\nfrexp \n"));
+    printf(_("\nNumero: "));
+    scanf("%lf",&a);
+    printf(_("\nExponente: "));
+    scanf("%d",&b);
+    c=frexp(a,&b);
+    printf(_("\nResultado: "));
+    printf("%lf\n\n",c);
+}
+
+void potencia(){
+    double a,b,c;
+    printf(_("\nPotencia \n"));
+    printf(_("\nNumero: "));
+    scanf("%lf",&a);
+    printf(_("\nPotencia: "));
+    scanf("%lf",&b);
+    c=pow(a,b);
+    printf(_("\nResultado: "));
+    printf("%lf\n\n",c);
+}
+
+void tanhip(){
+    double a,b;
+    printf(_("\nTangente hiperbolica \n"));
+    printf(_("\nNumero: "));
+    scanf("%lf",&a);
+    b=tanh(a);
+    printf(_("\nResultado: "));
+    printf("%lf\n\n",b);
+}
+
