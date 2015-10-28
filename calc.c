@@ -64,33 +64,33 @@ int main(int argc, char* argv[]){
 
                 //Con la categoria y la operacion elegidas evaluamos la funcion adecuada
                 switch (categoria) {
-            
+
                   case 1: { suma(); break; }
-                  case 2:
+                  case 2: { resta(); break; }
                   case 3: { multiplicacion(); break; }
-                  case 4:
-                  case 5:{ arcoCoseno(); break; }
-                  case 6:
-                  case 7:
+                  case 4: { division(); break;}
+                  case 5: { seno(); break; }
+                  case 6: { cosseno(); break; }
+                  case 7: { tangente(); break; }
                   case 8: { arcoseno(); break; }
-                  case 9: { break; }
+                  case 9: { arcoCoseno(); break; }
                   case 10:{ coseno(); break; }
-                  case 11: { senoHiper(); break; }
-                  case 12: { coship(); break; }
-                  case 13: { tanhip(); break; }
-                  case 14: { atanDos(); break; }
-                  case 15: { fmodd(); break; }
-                  case 16: { logaritmoNatural(); break; }
-                  case 17:
-                  case 18: { raizCuadrada(); break; }
-                  case 19: { potencia(); break; }
-                  case 20: { valorAbsoluto(); break; }
-                  case 21:
-                  case 22:
-                  case 23: { funcionPiso(); break; }
-                  case 24: { frexpre(); break; }
-                  case 25: { tangente(); break;}
-                  case 26:
+                  case 11:{ senoHiper(); break; }
+                  case 12:{ coship(); break; }
+                  case 13:{ tangenteHiper(); break; }
+                  case 14:{ atanDos(); break; }
+                  case 15:{ expon(); break; }
+                  case 16:{ logaritmoNatural(); break; }
+                  case 17:{ decLog(); break; }
+                  case 18:{ raizCuadrada(); break; }
+                  case 19:{ potencia(); break; }
+                  case 20:{ valorAbsoluto(); break; }
+                  case 21:{ fmodd(); break;
+                  case 22:{ funcionTecho(); break;
+                  case 23:{ funcionPiso(); break; }
+                  case 24:{ frexpre(); break; }
+                  case 25:{ ldexpe(); break;}
+                  case 26:{ moduloF(); break;}
                   case 27:{
                       printf(_("\n\nThank you for using our calculator!\n"));
                       printf(_("Come back soon!\n\n"));
@@ -101,7 +101,7 @@ int main(int argc, char* argv[]){
                       printf(_("Try again!\n\n"));
                       break;
                   }
-              }            
+              }
         }
         else{
             printf(_("\n\nError: It is not a number!\n"));
