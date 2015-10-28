@@ -92,8 +92,24 @@ int main(int argc, char* argv[]){
                         printf(_("\nEs culpa de Peter XD \n\n"));
                         break;
                     }
-
-                    case 10:{
+                    case 10:
+                    case 11:
+                    case 12:
+                    case 13:
+                    case 14:
+                    case 15:
+                    case 16:
+                    case 17:
+                    case 18:
+                    case 19:
+                    case 20:
+                    case 21:
+                    case 22:
+                    case 23:
+                    case 24:
+                    case 25:
+                    case 26:
+                    case 27:{
                         printf(_("\n\n¡Gracias por usar nuestra calculadora!\n"));
                         printf(_("¡Regresa Pronto!\n\n"));
                         break;
@@ -117,6 +133,6 @@ int main(int argc, char* argv[]){
         }
 
 
-    }while (categoria != 10);
+    }while (categoria != 27);
     return 0;
 }
