@@ -172,13 +172,13 @@ int myNaN (){
 void suma (){
     printf(_("\nAddition \n"));
     printf(_("\n1st Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\n2nd Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     y = atof(str);
     printf(_("\nResult: "));
-    printf("%d\n\n",x+y);
+    printf("%f\n\n",x+y);
     //limpiamos buffer
     limpiarBuffer ();
 }
@@ -192,13 +192,13 @@ void suma (){
 void resta (){
     printf(_("\nSubtraction \n"));
     printf(_("\n1st Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\n2nd Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     y = atof(str);
     printf(_("\nResult: "));
-    printf("%d\n\n",x-y);
+    printf("%f\n\n",x-y);
     //limpiamos buffer
     limpiarBuffer ();
 }
@@ -212,13 +212,13 @@ void resta (){
 void multiplicacion (){
     printf(_("\nMultiplication \n"));
     printf(_("\n1st Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\n2nd Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     y = atof(str);
     printf(_("\nResult: "));
-    printf("%d\n\n", x*y);
+    printf("%f\n\n", x*y);
     //limpiamos buffer
     limpiarBuffer ();
 }
@@ -233,14 +233,14 @@ void division(){
     printf(_("\n Division \n"));
     printf(_("\nDivided: "));
     printf(_("\n1st Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\n2nd Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     y = atof(str);
     printf(_("\nResult: "));
     if ( y != 0) {
-        printf("%d\n\n", x/y);
+        printf("%f\n\n", x/y);
     } else {
         printf(_("\nError: division by zero is not defined\n"));
     }
@@ -256,7 +256,7 @@ void division(){
 void seno (){
     printf(_("\nSine \n"));
     printf(_("\nNumber: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nResult in radians: "));
     printf("%lf\n\n",sin(x));
@@ -273,7 +273,7 @@ void seno (){
 void coseno(){
     printf(_("\nCoseno \n"));
     printf(_("\nNúmero: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nResultado en Radianes: "));
     printf("%lf\n\n",cos(x));
@@ -290,7 +290,7 @@ void coseno(){
 void tangente(){
     printf(_("\nTangente en Radianes \n"));
     printf(_("\nNúmero: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nResultado en Radianes: "));
     printf("%lf\n\n",tan(x));
@@ -307,7 +307,7 @@ void tangente(){
 void arcoseno(){
     printf(_("\nArc sine \n"));
     printf(_("\nNumber: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nResult: "));
     printf("%lf\n\n",asin(x));
@@ -324,10 +324,10 @@ void arcoseno(){
 void arcoCoseno(){
    printf(_("\nArco Coseno \n"));
    printf(_("\nNúmero: "));
-   scanf("%lf",&x);
-   y=acos(x);
+   scanf("%s",str);
+   x = atof(str);
    printf(_("\nResultado en Radianes: "));
-   printf("%lf\n\n",y);
+   printf("%lf\n\n",acos(x));
    //limpiamos buffer
    limpiarBuffer ();
 }
@@ -341,7 +341,7 @@ void arcoCoseno(){
 void arcoTan (){
     printf(_("\n Arc tangent \n"));
     printf(_("\nNumber: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nResult in radians: "));
     printf("%lf\n\n",atan(x));
@@ -358,7 +358,7 @@ void arcoTan (){
 void senoHiper (){
   printf(_("\nHyperbolic sine \n"));
   printf(_("\n1st Number: "));
-  scanf("%s",&str);
+  scanf("%s",str);
   x = atof(str);
   printf(_("\nResult: "));
   printf("%lf\n\n", sinh(x));
@@ -375,7 +375,7 @@ void senoHiper (){
 void coship(){
     printf(_("\nHyperbolic cosine \n"));
     printf(_("\nNumber: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nResult: "));
     printf("%lf\n\n",cosh(x));
@@ -392,7 +392,7 @@ void coship(){
 void tangenteHiper (){
   printf(_("\nHyperbolic tangent \n"));
   printf(_("\n1st Number: "));
-  scanf("%s",&str);
+  scanf("%s",str);
   x = atof(str);
   printf(_("\nResult: "));
   printf("%lf\n\n", tanh(x));
@@ -409,10 +409,10 @@ void tangenteHiper (){
 void atanDos (){
   printf(_("\nArc Tangent Two (atan2) \n"));
   printf(_("\n1st Number: "));
-  scanf("%s",&str);
+  scanf("%s",str);
   x = atof(str);
   printf(_("\n2nd Number: "));
-  scanf("%s",&str);
+  scanf("%s",str);
   y = atof(str);
   printf(_("\nResult: "));
   printf("%lf\n\n", atan2(x, y));
@@ -429,7 +429,7 @@ void atanDos (){
 void expon (){
     printf(_("\nExponential \n"));
     printf(_("\nNumber: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nResult: "));
     printf("%lf\n\n", exp(x));
@@ -446,7 +446,7 @@ void expon (){
 void logaritmoNatural (){
   printf(_("\nNatural logarithm \n"));
   printf(_("\n1st Number: "));
-  scanf("%s",&str);
+  scanf("%s",str);
   x = atof(str);
   printf(_("\nResult: "));
   printf("%lf\n\n", log(x));
@@ -463,10 +463,10 @@ void logaritmoNatural (){
 void decLog (){
     printf(_("\nDecimal logarithm \n"));
     printf(_("\nNumber: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nExponential: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     y = atof(str);
     printf(_("\nResult: "));
     printf("%lf\n\n", ldexp(x,y));
@@ -484,7 +484,7 @@ void decLog (){
 void raizCuadrada (){
   printf(_("\nSquare root \n"));
   printf(_("\n1st Number: "));
-  scanf("%s",&str);
+  scanf("%s",str);
   x = atof(str);
   printf(_("\nResult: "));
   printf("%lf\n\n", sqrt(x));
@@ -499,13 +499,12 @@ void raizCuadrada (){
 * [19]
 */
 void potencia(){
-    double a,b,c;
     printf(_("\nPower \n"));
     printf(_("\nNumber: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nPower: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     y = atof(str);
     printf(_("\nResult: "));
     printf("%lf\n\n",pow(x,y));
@@ -522,7 +521,7 @@ void potencia(){
 void valorAbsoluto (){
   printf(_("\nAbsolute value \n"));
   printf(_("\n1st Number: "));
-  scanf("%s",&str);
+  scanf("%s",str);
   x = atof(str);
   printf(_("\nResult: "));
   printf("%lf\n\n", fabs(x));
@@ -539,10 +538,10 @@ void valorAbsoluto (){
 void fmodd(){
     printf("\nModulo de 2 números \n");
     printf("\n1er Número: ");
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf("\n2do Número: ");
-    scanf("%s",&str);
+    scanf("%s",str);
     y = atof(str);
     printf("\nEl Módulo de %lf entre %lf es:", x, y);
     printf("%lf\n\n",fmod(x,y));
@@ -559,7 +558,7 @@ void fmodd(){
 void funcionTecho(){
     printf("\nCeil function\n");
     printf(_("\n1st Number: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nResult: "));
     printf("%lf\n\n", ceil(x));
@@ -576,7 +575,7 @@ void funcionTecho(){
 void funcionPiso (){
   printf(_("\nFloor function \n"));
   printf(_("\n1st Number: "));
-  scanf("%s",&str);
+  scanf("%s",str);
   x = atof(str);
   printf(_("\nResult: "));
   printf("%lf\n\n", floor(x));
@@ -594,10 +593,10 @@ void frexpre(){
     int b;
     printf(_("\nfrexp \n"));
     printf(_("\nNumber: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     x = atof(str);
     printf(_("\nExponent: "));
-    scanf("%s",&str);
+    scanf("%s",str);
     b = atoi(str);
     printf(_("\nResult: "));
     printf("%lf\n\n",frexp(x,&b));

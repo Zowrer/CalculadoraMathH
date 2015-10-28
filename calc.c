@@ -33,7 +33,7 @@
 ///definiciones
 #define _(cadena) gettext(cadena)
 
-int main(int argc, char* argv[]){
+int main(){
     // declaracion de variables locales
     //variable para leer la categoria de funciones
     int categoria;
