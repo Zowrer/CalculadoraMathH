@@ -79,7 +79,7 @@ int main(int argc, char* argv[]){
                   case 12: { coship(); break; }
                   case 13: { tanhip(); break; }
                   case 14: { atanDos(); break; }
-                  case 15: { fmod(); break; }
+                  case 15: { fmodd(); break; }
                   case 16: { logaritmoNatural(); break; }
                   case 17:
                   case 18: { raizCuadrada(); break; }
@@ -89,7 +89,7 @@ int main(int argc, char* argv[]){
                   case 22:
                   case 23: { funcionPiso(); break; }
                   case 24: { frexpre(); break; }
-                  case 25: { tan(); break;}
+                  case 25: { tangente(); break;}
                   case 26:
                   case 27:{
                       printf(_("\n\nThank you for using our calculator!\n"));
