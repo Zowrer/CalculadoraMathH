@@ -613,7 +613,18 @@ void frexpre(){
 * [25]
 */
 void ldexpe(){
-    printf("\nfrexp\n");
+    int b;
+    printf(_("\nldexp \n"));
+    printf(_("\nNumber: "));
+    scanf("%s",str);
+    x = atof(str);
+    printf(_("\nExponent: "));
+    scanf("%s",str);
+    b = atoi(str);
+    printf(_("\nResult: "));
+    printf("%lf\n\n",ldexp(x,b));
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -623,5 +634,16 @@ void ldexpe(){
 * [26]
 */
 void moduloF(){
+    double a;
     printf("\nmodf\n");
+    printf(_("\nNumber: "));
+    scanf("%s",str);
+    a = atof(str);
+    y = modf( a, &x);
+    printf(_("\nResult "));
+    printf(_("\nInteger part: "));
+    printf("%lf",x);
+    printf(_("\nDecimal part: "));
+    printf("%lf\n\n",y);
+    limpiarBuffer ();
 }
