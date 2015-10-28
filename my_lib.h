@@ -18,5 +18,8 @@ void atanDos();
 void valorAbsoluto();
 void logaritmoNatural();
 void senoHiper();
-
+void arcoCoseno();
+void tan();
+void fmod();
+void coseno();
 #endif
