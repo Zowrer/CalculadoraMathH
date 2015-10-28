@@ -19,7 +19,7 @@ void valorAbsoluto();
 void logaritmoNatural();
 void senoHiper();
 void arcoCoseno();
-void tan();
-void fmod();
+void tangente();
+void fmodd();
 void coseno();
 #endif
