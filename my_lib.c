@@ -291,7 +291,7 @@ void coseno(){
 }
 
 
-void fmod(){
+void fmodd(){
     double x,y;
     printf("\nModulo de 2 números \n");
     printf("\n1er Número: ");
@@ -299,9 +299,10 @@ void fmod(){
     printf("\n2do Número: ");
     scanf("%lf",&y);
     printf("\nEl Módulo de %lf entre %lf es:", x, y);
+    printf("%lf\n\n",fmod(x,y));
 }
 
-void tan(){
+void tangente(){
 
     double x,y;
     printf(_("\nTangente en Radianes \n"));
