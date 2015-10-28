@@ -71,7 +71,10 @@ int main(int argc, char* argv[]){
                     case 2:
                     case 3:
                     case 4:
-                    case 5:
+                    case 5:{
+                        arcoCoseno();
+                        break;
+                    }
                     case 6:
                     case 7:
                     case 8:{
@@ -81,7 +84,9 @@ int main(int argc, char* argv[]){
                     case 9:{
                         break;
                     }
-                    case 10:
+                    case 10:{
+                        coseno();
+                    }
                     case 11:
                     case 12:{
                         coship();
@@ -92,7 +97,10 @@ int main(int argc, char* argv[]){
                         break;
                     }
                     case 14:
-                    case 15:
+                    case 15:{
+                        fmod();
+                        break:
+                    }
                     case 16:
                     case 17:
                     case 18:
@@ -107,7 +115,10 @@ int main(int argc, char* argv[]){
                         frexpre();
                         break;
                     }
-                    case 25:
+                    case 25:{
+                        tan();
+                        break;
+                    }
                     case 26:
                     case 27:{
                         printf(_("\n\nThank you for using our calculator!\n"));
