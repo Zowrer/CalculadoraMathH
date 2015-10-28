@@ -1,0 +1,389 @@
+# Spanish translations for calc package.
+# Copyright (C) 2015 YolandaAlvarez
+# This file is distributed under the same license as the calc package.
+# Andy <megan_potter2007@hotmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: calc 0.1\n"
+"Report-Msgid-Bugs-To: megan_potter2007@hotmail.com\n"
+"POT-Creation-Date: 2015-10-28 01:26-0600\n"
+"PO-Revision-Date: 2015-10-28 01:27-0600\n"
+"Last-Translator: Andy <megan_potter2007@hotmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: calc.c:132
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Error: It is not a number!\n"
+msgstr ""
+"\n"
+"\n"
+"¡Error: no ingresaste un número!\n"
+
+#: calc.c:119
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Thank you for using our calculator!\n"
+msgstr ""
+"\n"
+"\n"
+"¡Gracias por usar nuestra calculadora!\n"
+
+#: calc.c:54
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Welcome, you are running a calculator developed by the team Icazas!\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"¡Bienvenido, estas ejecutando una calculadora desarrollada por el equipo Icazas!\n"
+"\n"
+
+#: calc.c:125
+#, c-format
+msgid ""
+"\n"
+"\n"
+"You entered an invalid option!\n"
+msgstr ""
+"\n"
+"\n"
+"¡Ingresaste una opcion no valida!\n"
+
+#: my_lib.c:131
+#, c-format
+msgid ""
+"\n"
+"1st Number: "
+msgstr ""
+"\n"
+"Numero 1: "
+
+#: my_lib.c:133
+#, c-format
+msgid ""
+"\n"
+"2nd Number: "
+msgstr ""
+"\n"
+"Numero 2: "
+
+#: my_lib.c:130
+#, c-format
+msgid ""
+"\n"
+"Addition \n"
+msgstr ""
+"\n"
+"Suma \n"
+
+#: my_lib.c:142
+#, c-format
+msgid ""
+"\n"
+"Arc sine \n"
+msgstr ""
+"\n"
+"Arco seno \n"
+
+#: my_lib.c:119
+#, c-format
+msgid ""
+"\n"
+"Error:"
+msgstr ""
+"\n"
+"Error:"
+
+#: my_lib.c:166
+#, c-format
+msgid ""
+"\n"
+"Exponent: "
+msgstr ""
+"\n"
+"Exponente: "
+
+#: my_lib.c:152
+#, c-format
+msgid ""
+"\n"
+"Hyperbolic cosine \n"
+msgstr ""
+"\n"
+"Coseno hiperbólico \n"
+
+#: my_lib.c:187
+#, c-format
+msgid ""
+"\n"
+"Hyperbolic tangent \n"
+msgstr ""
+"\n"
+"Tangente hiperbólica \n"
+
+#: my_lib.c:143 my_lib.c:153 my_lib.c:164 my_lib.c:176 my_lib.c:188
+#, c-format
+msgid ""
+"\n"
+"Number: "
+msgstr ""
+"\n"
+"Numero: "
+
+#: my_lib.c:175
+#, c-format
+msgid ""
+"\n"
+"Power \n"
+msgstr ""
+"\n"
+"Potencia \n"
+
+#: my_lib.c:178
+#, c-format
+msgid ""
+"\n"
+"Power: "
+msgstr ""
+"\n"
+"Potencia: "
+
+#: my_lib.c:136 my_lib.c:146 my_lib.c:156 my_lib.c:169 my_lib.c:181
+#: my_lib.c:191
+#, c-format
+msgid ""
+"\n"
+"Result: "
+msgstr ""
+"\n"
+"Resultado: "
+
+#: my_lib.c:120
+#, c-format
+msgid ""
+"\n"
+"Segmentation fault\n"
+"\n"
+msgstr ""
+"\n"
+"Violacion de segmentacion\n"
+"\n"
+
+#: my_lib.c:114
+#, c-format
+msgid ""
+"\n"
+"Sorry, you can not exit with the key combination Ctrl + C"
+msgstr ""
+"\n"
+"Lo lamento, no puedes salir con la combinacion de teclas Crtl + C"
+
+#: my_lib.c:115
+#, c-format
+msgid ""
+"\n"
+"Try the default setting\n"
+"\n"
+msgstr ""
+"\n"
+"Intenta con la opcion predefinida\n"
+"\n"
+
+#: my_lib.c:163
+#, c-format
+msgid ""
+"\n"
+"frexp \n"
+msgstr ""
+"\n"
+"frexp \n"
+
+#: calc.c:120
+#, c-format
+msgid ""
+"Come back soon!\n"
+"\n"
+msgstr ""
+"¡Regresa Pronto!\n"
+"\n"
+
+#: my_lib.c:21
+#, c-format
+msgid ""
+"Enter the corresponding number!\n"
+"\n"
+msgstr ""
+"¡Inserta el número correspondiente!\n"
+"\n"
+
+#: my_lib.c:19
+#, c-format
+msgid "The following menu displays the available operations\n"
+msgstr "El siguiente menu muestra las operaciones disponibles\n"
+
+#: my_lib.c:20
+#, c-format
+msgid "To select a category\n"
+msgstr "Para seleccionar una categoria\n"
+
+#: calc.c:126 calc.c:133
+#, c-format
+msgid ""
+"Try again!\n"
+"\n"
+msgstr ""
+"¡Intenta de nuevo!\n"
+"\n"
+
+#: my_lib.c:31
+#, c-format
+msgid "[10] Arc tangent\n"
+msgstr "[10] Arco tangente\n"
+
+#: my_lib.c:32
+#, c-format
+msgid "[11] Hyperbolic sine\n"
+msgstr "[11] Seno hiperbólico\n"
+
+#: my_lib.c:33
+#, c-format
+msgid "[12] Hyperbolic cosine\n"
+msgstr "[12] Coseno hiperbólico\n"
+
+#: my_lib.c:34
+#, c-format
+msgid "[13] Hyperbolic tangent\n"
+msgstr "[13] Tangente hiperbólica\n"
+
+#: my_lib.c:35
+#, c-format
+msgid "[14] Arc tangent y/x (atan2)\n"
+msgstr "[14] Arco tangente de y/x (atan2)\n"
+
+#: my_lib.c:36
+#, c-format
+msgid "[15] Exponential\n"
+msgstr "[15] Exponencial\n"
+
+#: my_lib.c:37
+#, c-format
+msgid "[16] Natural logarithm\n"
+msgstr "[16] Logaritmo natural\n"
+
+#: my_lib.c:38
+#, c-format
+msgid "[17] Decimal logarithm\n"
+msgstr "[17] Logaritmo base 10\n"
+
+#: my_lib.c:39
+#, c-format
+msgid "[18] Square root\n"
+msgstr "[18] Raiz cuadrada\n"
+
+#: my_lib.c:40
+#, c-format
+msgid "[19] Power\n"
+msgstr "[19] Potencia\n"
+
+#: my_lib.c:22
+#, c-format
+msgid "[1] Addition\n"
+msgstr "[1] Suma\n"
+
+#: my_lib.c:41
+#, c-format
+msgid "[20] Absolute value\n"
+msgstr "[20] Valor absoluto\n"
+
+#: my_lib.c:42
+#, c-format
+msgid "[21] floating point remainder (fmod)\n"
+msgstr "[21] Resto de coma flotante (fmod)\n"
+
+#: my_lib.c:43
+#, c-format
+msgid "[22] Ceil function\n"
+msgstr "[22] Funcion techo\n"
+
+#: my_lib.c:44
+#, c-format
+msgid "[23] Floor function\n"
+msgstr "[23] Funcion piso\n"
+
+#: my_lib.c:45
+#, c-format
+msgid "[24] frexp\n"
+msgstr "[24] frexp\n"
+
+#: my_lib.c:46
+#, c-format
+msgid "[25] ldexp\n"
+msgstr "[25] ldexp\n"
+
+#: my_lib.c:47
+#, c-format
+msgid "[26] modf\n"
+msgstr "[26] modf\n"
+
+#: my_lib.c:48
+#, c-format
+msgid ""
+"[27] Exit\n"
+"\n"
+msgstr ""
+"[27] Salir\n"
+"\n"
+
+#: my_lib.c:23
+#, c-format
+msgid "[2] Subtraction\n"
+msgstr "[2] Resta\n"
+
+#: my_lib.c:24
+#, c-format
+msgid "[3] Multiplication\n"
+msgstr "[3] Multiplicación\n"
+
+#: my_lib.c:25
+#, c-format
+msgid "[4] Division\n"
+msgstr "[4] División\n"
+
+#: my_lib.c:26
+#, c-format
+msgid "[5] Sine\n"
+msgstr "[5] Seno\n"
+
+#: my_lib.c:27
+#, c-format
+msgid "[6] Cosine\n"
+msgstr "[6] Coseno\n"
+
+#: my_lib.c:28
+#, c-format
+msgid "[7] Tangent\n"
+msgstr "[7] Tangente\n"
+
+#: my_lib.c:29
+#, c-format
+msgid "[8] Arc sine\n"
+msgstr "[8] Arco seno\n"
+
+#: my_lib.c:30
+#, c-format
+msgid "[9] Arc cosine\n"
+msgstr "[9] Arco coseno\n"
