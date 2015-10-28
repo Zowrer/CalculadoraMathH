@@ -191,3 +191,81 @@ void tanhip(){
     printf(_("\nResult: "));
     printf("%lf\n\n",b);
 }
+
+/*Other*/
+
+void multiplicacion (){
+    int a,b;
+    printf(_("\nMultiplication \n"));
+    printf(_("\n1st Number: "));
+    scanf("%d", &a);
+    printf(_("\n2nd Number: "));
+    scanf("%d", &b);
+    printf(_("\nResult: "));
+    printf("%d\n\n", a*b);
+}
+
+/*void tangHiper (){
+  double a;
+  printf(_("\nHyperbolic tangent \n"));
+  printf(_("\n1st Number: "));
+	scanf("%lf", &a);
+  printf(_("\nResult: "));
+  printf("%lf\n\n", tanh(a));
+}*/
+
+void raizCuadrada (){
+  double a;
+  printf(_("\nSquare root \n"));
+  printf(_("\n1st Number: "));
+	scanf ("%lf", &a);
+  printf(_("\nResult: "));
+  printf("%lf\n\n", sqrt(a));
+}
+
+void funcionPiso (){
+  double a;
+  printf(_("\nFloor function \n"));
+  printf(_("\n1st Number: "));
+  scanf("%lf", &a);
+  printf(_("\nResult: "));
+  printf("%lf\n\n", floor(a));
+}
+
+void atanDos (){
+  double a, b;
+  printf(_("\nArc Tangent Two (atan2) \n"));
+  printf(_("\n1st Number: "));
+	scanf("%lf",&a);
+	printf(_("\n2nd Number: "));
+	scanf("%lf",&b);
+  printf(_("\nResult: "));
+  printf("%lf\n\n", atan2(a, b));
+}
+
+void valorAbsoluto (){
+  double a;
+  printf(_("\nAbsolute value \n"));
+  printf(_("\n1st Number: "));
+  scanf ("%lf", &a);
+  printf(_("\nResult: "));
+  printf("%lf\n\n", fabs(a));
+}
+
+void logaritmoNatural (){
+  double a;
+  printf(_("\nNatural logarithm \n"));
+  printf(_("\n1st Number: "));
+	scanf ("%lf", &a);
+  printf(_("\nResult: "));
+  printf("%lf\n\n", log(a));
+}
+
+void senoHiper (){
+  double a;
+  printf(_("\nHyperbolic sine \n"));
+  printf(_("\n1st Number: "));
+	scanf("%lf", &a);
+  printf(_("\nResult: "));
+  printf("%lf\n\n", sinh(a));
+}
