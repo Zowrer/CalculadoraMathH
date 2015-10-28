@@ -51,6 +51,19 @@ void mostrarMenu (){
 }
 
 /**
+* Limpia el buffer de teclado
+* @param void
+* @return void
+*/
+void limpiarBuffer (){
+    char ch = getchar();
+    //Mientras el caracter leido sea diferente de nueva linea o Error leemos de teclado
+    while((ch != 10) && (ch != -1)){
+        ch = getchar();
+    }
+}
+
+/**
 * Lectura de un entero desde teclado
 * @param int
 * @param int
@@ -159,6 +172,8 @@ void suma (){
     c = a + b;
     printf(_("\nResult: "));
     printf("%d\n\n",c);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -177,6 +192,8 @@ void resta (){
     c = a - b;
     printf(_("\nResult: "));
     printf("%d\n\n",c);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -194,6 +211,8 @@ void multiplicacion (){
     scanf("%d", &b);
     printf(_("\nResult: "));
     printf("%d\n\n", a*b);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -230,6 +249,8 @@ void seno (){
     scanf("%lf",&x);
     printf(_("\nResult in radians: "));
     printf("%lf\n\n",sin(x));
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -246,6 +267,8 @@ void coseno(){
     y=cos(x);
     printf(_("\nResultado en Radianes: "));
     printf("%lf\n\n",y);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -262,6 +285,8 @@ void tangente(){
     y=tan(x);
     printf(_("\nResultado en Radianes: "));
     printf("%lf\n\n",y);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -278,6 +303,8 @@ void arcoseno(){
     b=asin(a);
     printf(_("\nResult: "));
     printf("%lf\n\n",b);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -294,6 +321,8 @@ void arcoCoseno(){
    y=acos(x);
    printf(_("\nResultado en Radianes: "));
    printf("%lf\n\n",y);
+   //limpiamos buffer
+   limpiarBuffer ();
 }
 
 /**
@@ -309,6 +338,8 @@ void arcoTan (){
     scanf("%lf",&x);
     printf(_("\nResult in radians: "));
     printf("%lf\n\n",atan(x));
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -324,6 +355,8 @@ void senoHiper (){
 	scanf("%lf", &a);
   printf(_("\nResult: "));
   printf("%lf\n\n", sinh(a));
+  //limpiamos buffer
+  limpiarBuffer ();
 }
 
 /**
@@ -340,6 +373,8 @@ void coship(){
     b=cosh(a);
     printf(_("\nResult: "));
     printf("%lf\n\n",b);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -355,6 +390,8 @@ void tangenteHiper (){
 	scanf("%lf", &a);
   printf(_("\nResult: "));
   printf("%lf\n\n", tanh(a));
+  //limpiamos buffer
+  limpiarBuffer ();
 }
 
 /**
@@ -372,6 +409,8 @@ void atanDos (){
 	scanf("%lf",&b);
   printf(_("\nResult: "));
   printf("%lf\n\n", atan2(a, b));
+  //limpiamos buffer
+  limpiarBuffer ();
 }
 
 /**
@@ -387,6 +426,8 @@ void expon (){
     scanf ("%lf", &x);
     printf(_("\nResult: "));
     printf("%lf\n\n", exp(x));
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -402,6 +443,8 @@ void logaritmoNatural (){
 	scanf ("%lf", &a);
   printf(_("\nResult: "));
   printf("%lf\n\n", log(a));
+  //limpiamos buffer
+  limpiarBuffer ();
 }
 
 /**
@@ -419,6 +462,8 @@ void decLog (){
     scanf ("%lf", &y);
     printf(_("\nResult: "));
     printf("%lf\n\n", ldexp(x,y));
+    //limpiamos buffer
+    limpiarBuffer ();
 
 }
 
@@ -435,6 +480,8 @@ void raizCuadrada (){
 	scanf ("%lf", &a);
   printf(_("\nResult: "));
   printf("%lf\n\n", sqrt(a));
+  //limpiamos buffer
+  limpiarBuffer ();
 }
 
 /**
@@ -453,6 +500,8 @@ void potencia(){
     c=pow(a,b);
     printf(_("\nResult: "));
     printf("%lf\n\n",c);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -468,6 +517,8 @@ void valorAbsoluto (){
   scanf ("%lf", &a);
   printf(_("\nResult: "));
   printf("%lf\n\n", fabs(a));
+  //limpiamos buffer
+  limpiarBuffer ();
 }
 
 /**
@@ -485,6 +536,8 @@ void fmodd(){
     scanf("%lf",&y);
     printf("\nEl Módulo de %lf entre %lf es:", x, y);
     printf("%lf\n\n",fmod(x,y));
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -500,6 +553,8 @@ void funcionTecho(){
     scanf("%lf", &a);
     printf(_("\nResult: "));
     printf("%lf\n\n", ceil(a));
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**
@@ -515,6 +570,8 @@ void funcionPiso (){
   scanf("%lf", &a);
   printf(_("\nResult: "));
   printf("%lf\n\n", floor(a));
+  //limpiamos buffer
+  limpiarBuffer ();
 }
 
 /**
@@ -534,6 +591,8 @@ void frexpre(){
     c=frexp(a,&b);
     printf(_("\nResult: "));
     printf("%lf\n\n",c);
+    //limpiamos buffer
+    limpiarBuffer ();
 }
 
 /**

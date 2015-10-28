@@ -9,6 +9,13 @@
 void mostrarMenu ();
 
 /**
+* Limpia el buffer de teclado
+* @param void
+* @return void
+*/
+void limpiarBuffer ();
+
+/**
 * Lectura de un entero desde teclado
 * @param int
 * @param int
