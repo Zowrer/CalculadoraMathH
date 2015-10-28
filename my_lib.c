@@ -269,3 +269,48 @@ void senoHiper (){
   printf(_("\nResult: "));
   printf("%lf\n\n", sinh(a));
 }
+
+ void arcoCoseno(){
+    double x,y;
+    printf(_("\nArco Coseno \n"));
+    printf(_("\nNúmero: "));
+    scanf("%lf",&x);
+    y=acos(x);
+    printf(_("\nResultado en Radianes: "));
+    printf("%lf\n\n",y);
+}
+
+void coseno(){
+    double x,y;
+    printf(_("\nCoseno \n"));
+    printf(_("\nNúmero: "));
+    scanf("%lf",&x);
+    y=cos(x);
+    printf(_("\nResultado en Radianes: "));
+    printf("%lf\n\n",y);
+}
+
+
+void fmod(){
+    double x,y;
+    printf("\nModulo de 2 números \n");
+    printf("\n1er Número: ");
+    scanf("%lf",&x);
+    printf("\n2do Número: ");
+    scanf("%lf",&y);
+    printf("\nEl Módulo de %lf entre %lf es:", x, y);
+}
+
+void tan(){
+
+    double x,y;
+    printf(_("\nTangente en Radianes \n"));
+    printf(_("\nNúmero: "));
+    scanf("%lf",&x);
+    y=tan(x);
+    printf(_("\nResultado en Radianes: "));
+    printf("%lf\n\n",y);
+}
+
+
+
