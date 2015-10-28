@@ -62,8 +62,8 @@ int readInt(int base, int max){
 
 
     //la variable b funciona como base de multiplicacion
-    //inicia como 0 porque en las unidades: base elevado a la 0 es igual a 1
-    //Al ser de tipo char pueden moverse de 0 hasta maximo 255
+    //inicia como 1 porque en las unidades: base elevado a la 0 es igual a 1
+    //Al ser de tipo char pueden moverse de 1 hasta maximo 255
     unsigned char b = 1;
 
     //Las variables i y j son para mover indices
@@ -463,7 +463,12 @@ void fmodd(){
 * [22]
 */
 void funcionTecho(){
+    double a;
     printf("\nCeil function\n");
+    printf(_("\n1st Number: "));
+    scanf("%lf", &a);
+    printf(_("\nResult: "));
+    printf("%lf\n\n", ceil(a));
 }
 
 /**

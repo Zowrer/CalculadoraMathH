@@ -64,13 +64,12 @@ int main(int argc, char* argv[]){
 
                 //Con la categoria y la operacion elegidas evaluamos la funcion adecuada
                 switch (categoria) {
-
                   case 1: { suma(); break; }
                   case 2: { resta(); break; }
                   case 3: { multiplicacion(); break; }
                   case 4: { division(); break;}
                   case 5: { seno(); break; }
-                  case 6: { cosseno(); break; }
+                  case 6: { coseno(); break; }
                   case 7: { tangente(); break; }
                   case 8: { arcoseno(); break; }
                   case 9: { arcoCoseno(); break; }
@@ -85,8 +84,8 @@ int main(int argc, char* argv[]){
                   case 18:{ raizCuadrada(); break; }
                   case 19:{ potencia(); break; }
                   case 20:{ valorAbsoluto(); break; }
-                  case 21:{ fmodd(); break;
-                  case 22:{ funcionTecho(); break;
+                  case 21:{ fmodd(); break;}
+                  case 22:{ funcionTecho(); break;}
                   case 23:{ funcionPiso(); break; }
                   case 24:{ frexpre(); break; }
                   case 25:{ ldexpe(); break;}

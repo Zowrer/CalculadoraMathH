@@ -30,6 +30,7 @@ void myCatch (int numS);
 */
 int myNaN ();
 
+
 /**
 * realiza la operacion de suma
 * @param void
