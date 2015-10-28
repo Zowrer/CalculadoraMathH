@@ -26,9 +26,9 @@ void mostrarMenu (){
     printf(_("[5] Seno\n"));
     printf(_("[6] Coseno\n"));
     printf(_("[7] Tangente\n"));
-    printf(_("[8] Secante\n"));
-    printf(_("[9] Cosecante\n"));
-    printf(_("[10] Cotangente\n"));
+    printf(_("[8] Arco seno\n"));
+    printf(_("[9] Arco coseno\n"));
+    printf(_("[10] Arco tangente\n"));
     printf(_("[11] Seno hiperbólico\n"));
     printf(_("[12] Coseno hiperbólico\n"));
     printf(_("[13] Tangente hiperbólica\n"));
