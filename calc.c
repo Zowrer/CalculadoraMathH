@@ -102,7 +102,6 @@ int main(int argc, char* argv[]){
                       break;
                   }
               }            
->>>>>>> fa9790e345d02ae2f5adaa359344ddc614e37219
         }
         else{
             printf(_("\n\nError: It is not a number!\n"));
