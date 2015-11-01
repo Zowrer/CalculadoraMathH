@@ -1,0 +1,101 @@
+gcc -g -o3 -W -Wall -lm calc.c -o calc
+
+xgettext --package-name codigo --package-version 0.1 --default-domain codigo --output po/calc.pot --from-code=utf-8 --copyright-holder="Monica" --msgid-bugs-address="kamitdevica@gmail.com" -s -k_ -L C calc.c
+
+vim po/calc.pot    #para cambiar el utf-8
+
+msginit -l es -o po/esc.po -i po/calc.pot
+msginit -l es -o po/es.po -i po/calc.pot
+
+#edite el de espanol  
+
+msginit -l es -o po/en.po -i po/calc.pot
+msgfmt -c -v -o idioma/es/LC_MESSAGES/calc.mo po/es.po
+
+
+LANG=en_EN ./calc
+
+
+Welcome, you are running a calculator developed by the team Icazas!
+
+The following menu displays the available operations
+To select a category
+Enter the corresponding number!
+
+[1] Addition
+[2] Subtraction
+[3] Multiplication
+[4] Division
+[5] Sine
+[6] Cosine
+[7] Tangent
+[8] Arc sine
+[9] Arc cosine
+[10] Arc tangent
+[11] Hyperbolic sine
+[12] Hyperbolic cosine
+[13] Hyperbolic tangent
+[14] Arc tangent y/x (atan2)
+[15] Exponential
+[16] Natural logarithm
+[17] Decimal logarithm
+[18] Square root
+[19] Power
+[20] Absolute value
+[21] floating point remainder (fmod)
+[22] Ceil function
+[23] Floor function
+[24] frexp
+[25] ldexp
+[26] modf
+[27] Exit
+
+27
+
+
+Thank you for using our calculator!
+Come back soon!
+
+LANG=es_ES ./calc
+
+
+¡Bienvenido, tu estas corriendo una calculadora desarrollada por el equipo Icazas!
+El siguiente menú muestra las operaciones disponibles
+Selecciona una categoria
+¡Ingresa el numero correspondiente!
+
+[1] Adicion
+[2] Substraccion
+[3] Multiplicacion
+[4] Division
+[5] Seno
+[6] Coseno
+[7] Tangente
+[8] Arco seno
+[9] Arco coseno
+[10] Arco tangente
+[11] Seno Hiperbolico
+[12] Coseno Hiperbolico
+[13] Tangente hiperbolica
+[14] Arco tangente y/x (atan2)
+[15] Exponencial
+[16] Logaritmo natural
+[17] Logaritmo decimal
+[18] Raiz cuadrada
+[19] Potencia
+[20] Valor absoluto
+[21] punto resta flotante (fmod)
+[22] Funcion ceil 
+[23] Funcion piso
+[24] frexp
+[25] ldexp
+[26] modf
+[27] Salir
+
+27
+
+
+¡Gracias por usar nuestra calculadora!
+Vuelve pronto!
+
+
