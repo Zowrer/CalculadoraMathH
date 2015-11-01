@@ -1,0 +1,617 @@
+# Spanish translations for codigo package.
+# Copyright (C) 2015 Monica
+# This file is distributed under the same license as the codigo package.
+# inakty <kamitdevica@gmail.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: codigo 0.1\n"
+"Report-Msgid-Bugs-To: kamitdevica@gmail.com\n"
+"POT-Creation-Date: 2015-11-01 13:36-0600\n"
+"PO-Revision-Date: 2015-11-01 13:38-0600\n"
+"Last-Translator: inakty <kamitdevica@gmail.com>\n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: calc.c:742
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Error: It is not a number!\n"
+msgstr ""
+"\n"
+"\n"
+"¡Error este no es un numero!\n"
+
+#: calc.c:730
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Thank you for using our calculator!\n"
+msgstr ""
+"\n"
+"\n"
+"¡Gracias por usar nuestra calculadora!\n"
+
+#: calc.c:687
+#, c-format
+msgid ""
+"\n"
+"\n"
+"Welcome, you are running a calculator developed by the team Icazas!\n"
+"\n"
+msgstr ""
+"\n"
+"\n"
+"¡Bienvenido, tu estas corriendo una calculadora desarrollada por el equipo Icazas!\n"
+
+#: calc.c:735
+#, c-format
+msgid ""
+"\n"
+"\n"
+"You entered an invalid option!\n"
+msgstr ""
+"\n"
+"\n"
+"¡Ha introducido una opcion invalida!\n"
+
+#: calc.c:361
+#, c-format
+msgid ""
+"\n"
+" Arc tangent \n"
+msgstr ""
+"\n"
+" Arco tangente \n"
+
+#: calc.c:252
+#, c-format
+msgid ""
+"\n"
+" Division \n"
+msgstr ""
+"\n"
+" Division \n"
+
+#: calc.c:379
+#, c-format
+msgid ""
+"\n"
+" Number: "
+msgstr ""
+"\n"
+" Numero: "
+
+#: calc.c:193 calc.c:213 calc.c:233 calc.c:254 calc.c:430 calc.c:596
+#, c-format
+msgid ""
+"\n"
+"1st Number: "
+msgstr ""
+"\n"
+"1er Numero: "
+
+#: calc.c:196 calc.c:216 calc.c:236 calc.c:257 calc.c:433
+#, c-format
+msgid ""
+"\n"
+"2nd Number: "
+msgstr ""
+"\n"
+"2do Numero: "
+
+#: calc.c:541
+#, c-format
+msgid ""
+"\n"
+"Absolute value \n"
+msgstr ""
+"\n"
+"Valor absoluto \n"
+
+#: calc.c:192
+#, c-format
+msgid ""
+"\n"
+"Addition \n"
+msgstr ""
+"\n"
+"Adicion \n"
+
+#: calc.c:344
+#, c-format
+msgid ""
+"\n"
+"Arc Cosine \n"
+msgstr ""
+"\n"
+"Arco Coseno \n"
+
+#: calc.c:429
+#, c-format
+msgid ""
+"\n"
+"Arc Tangent Two (atan2) \n"
+msgstr ""
+"\n"
+"Arco Tangente Dos (atan2) \n"
+
+#: calc.c:327
+#, c-format
+msgid ""
+"\n"
+"Arc sine \n"
+msgstr ""
+"\n"
+"Arco seno \n"
+
+#: calc.c:293
+#, c-format
+msgid ""
+"\n"
+"Cosine \n"
+msgstr ""
+"\n"
+"Coseno \n"
+
+#: calc.c:483
+#, c-format
+msgid ""
+"\n"
+"Decimal logarithm \n"
+msgstr ""
+"\n"
+"Logaritmo decimal \n"
+
+#: calc.c:663
+#, c-format
+msgid ""
+"\n"
+"Decimal part: "
+msgstr ""
+"\n"
+"Parte decimal: "
+
+#: calc.c:253
+#, c-format
+msgid ""
+"\n"
+"Divided: "
+msgstr ""
+"\n"
+"Dividido: "
+
+#: calc.c:171
+#, c-format
+msgid ""
+"\n"
+"Error:"
+msgstr ""
+"\n"
+"Error:"
+
+#: calc.c:264
+#, c-format
+msgid ""
+"\n"
+"Error: division by zero is not defined\n"
+msgstr ""
+"\n"
+"Error: division por cero no esta definida\n"
+
+#: calc.c:617 calc.c:638
+#, c-format
+msgid ""
+"\n"
+"Exponent: "
+msgstr ""
+"\n"
+"Exponente: "
+
+#: calc.c:449
+#, c-format
+msgid ""
+"\n"
+"Exponential \n"
+msgstr ""
+"\n"
+"Exponencial \n"
+
+#: calc.c:487
+#, c-format
+msgid ""
+"\n"
+"Exponential: "
+msgstr ""
+"\n"
+"Exponencial: "
+
+#: calc.c:595
+#, c-format
+msgid ""
+"\n"
+"Floor function \n"
+msgstr ""
+"\n"
+"Funcion piso \n"
+
+#: calc.c:395
+#, c-format
+msgid ""
+"\n"
+"Hyperbolic cosine \n"
+msgstr ""
+"\n"
+"Coseno hiperbolico \n"
+
+#: calc.c:378
+#, c-format
+msgid ""
+"\n"
+"Hyperbolic sine \n"
+msgstr ""
+"\n"
+"Seno hiperbolico \n"
+
+#: calc.c:412
+#, c-format
+msgid ""
+"\n"
+"Hyperbolic tangent \n"
+msgstr ""
+"\n"
+"Tangente hiperbolica \n"
+
+#: calc.c:661
+#, c-format
+msgid ""
+"\n"
+"Integer part: "
+msgstr ""
+"\n"
+"Parte entera: "
+
+#: calc.c:232
+#, c-format
+msgid ""
+"\n"
+"Multiplication \n"
+msgstr ""
+"\n"
+"Multiplicacion \n"
+
+#: calc.c:466
+#, c-format
+msgid ""
+"\n"
+"Natural logarithm \n"
+msgstr ""
+"\n"
+"Logaritmo natural \n"
+
+#: calc.c:277 calc.c:294 calc.c:311 calc.c:328 calc.c:345 calc.c:362
+#: calc.c:396 calc.c:413 calc.c:450 calc.c:467 calc.c:484 calc.c:505
+#: calc.c:522 calc.c:542 calc.c:579 calc.c:614 calc.c:635 calc.c:656
+#, c-format
+msgid ""
+"\n"
+"Number: "
+msgstr ""
+"\n"
+"Numero: "
+
+#: calc.c:521
+#, c-format
+msgid ""
+"\n"
+"Power \n"
+msgstr ""
+"\n"
+"Potencia \n"
+
+#: calc.c:525
+#, c-format
+msgid ""
+"\n"
+"Power: "
+msgstr ""
+"\n"
+"Potencia: "
+
+#: calc.c:660
+#, c-format
+msgid ""
+"\n"
+"Result "
+msgstr ""
+"\n"
+"Resultado "
+
+#: calc.c:280 calc.c:297 calc.c:314 calc.c:348 calc.c:365
+#, c-format
+msgid ""
+"\n"
+"Result in radians: "
+msgstr ""
+"\n"
+"Resultado en radianes: "
+
+#: calc.c:199 calc.c:219 calc.c:239 calc.c:260 calc.c:331 calc.c:382
+#: calc.c:399 calc.c:416 calc.c:436 calc.c:453 calc.c:470 calc.c:490
+#: calc.c:508 calc.c:528 calc.c:545 calc.c:582 calc.c:599 calc.c:620
+#: calc.c:641
+#, c-format
+msgid ""
+"\n"
+"Result: "
+msgstr ""
+"\n"
+"Resultado: "
+
+#: calc.c:172
+#, c-format
+msgid ""
+"\n"
+"Segmentation fault\n"
+"\n"
+msgstr ""
+"\n"
+"Segmentacion falla\n"
+"\n"
+
+#: calc.c:276
+#, c-format
+msgid ""
+"\n"
+"Sine \n"
+msgstr ""
+"\n"
+"Seno \n"
+
+#: calc.c:166
+#, c-format
+msgid ""
+"\n"
+"Sorry, you can not exit with the key combination Ctrl + C"
+msgstr ""
+"\n"
+"Lo siento, no se puede salir con la combinacion de las teclas Ctrl + C"
+
+#: calc.c:504
+#, c-format
+msgid ""
+"\n"
+"Square root \n"
+msgstr ""
+"\n"
+"Raiz cuadrada \n"
+
+#: calc.c:212
+#, c-format
+msgid ""
+"\n"
+"Subtraction \n"
+msgstr ""
+"\n"
+"Substraccion \n"
+
+#: calc.c:310
+#, c-format
+msgid ""
+"\n"
+"Tangent in radians \n"
+msgstr ""
+"\n"
+"Tangente en radianes \n"
+
+#: calc.c:167
+#, c-format
+msgid ""
+"\n"
+"Try the default setting\n"
+"\n"
+msgstr ""
+"\n"
+"Prueba el ajuste por defecto\n"
+"\n"
+
+#: calc.c:613
+#, c-format
+msgid ""
+"\n"
+"frexp \n"
+msgstr ""
+"\n"
+"frexp \n"
+
+#: calc.c:634
+#, c-format
+msgid ""
+"\n"
+"ldexp \n"
+msgstr ""
+"\n"
+"ldexp \n"
+
+#: calc.c:731
+#, c-format
+msgid ""
+"Come back soon!\n"
+"\n"
+msgstr ""
+"Vuelve pronto!\n"
+"\n"
+
+#: calc.c:49
+#, c-format
+msgid ""
+"Enter the corresponding number!\n"
+"\n"
+msgstr ""
+"¡Ingresa el numero correspondiente!\n"
+"\n"
+
+#: calc.c:47
+#, c-format
+msgid "The following menu displays the available operations\n"
+msgstr "El siguiente menú muestra las operaciones disponibles\n"
+
+#: calc.c:48
+#, c-format
+msgid "To select a category\n"
+msgstr "Selecciona una categoria\n"
+
+#: calc.c:736 calc.c:743
+#, c-format
+msgid ""
+"Try again!\n"
+"\n"
+msgstr ""
+"¡Prueba otra vez!\n"
+"\n"
+
+#: calc.c:59
+#, c-format
+msgid "[10] Arc tangent\n"
+msgstr "[10] Arco tangente\n"
+
+#: calc.c:60
+#, c-format
+msgid "[11] Hyperbolic sine\n"
+msgstr "[11] Seno Hiperbolico\n"
+
+#: calc.c:61
+#, c-format
+msgid "[12] Hyperbolic cosine\n"
+msgstr "[12] Coseno Hiperbolico\n"
+
+#: calc.c:62
+#, c-format
+msgid "[13] Hyperbolic tangent\n"
+msgstr "[13] Tangente hiperbolica\n"
+
+#: calc.c:63
+#, c-format
+msgid "[14] Arc tangent y/x (atan2)\n"
+msgstr "[14] Arco tangente y/x (atan2)\n"
+
+#: calc.c:64
+#, c-format
+msgid "[15] Exponential\n"
+msgstr "[15] Exponencial\n"
+
+#: calc.c:65
+#, c-format
+msgid "[16] Natural logarithm\n"
+msgstr "[16] Logaritmo natural\n"
+
+#: calc.c:66
+#, c-format
+msgid "[17] Decimal logarithm\n"
+msgstr "[17] Logaritmo decimal\n"
+
+#: calc.c:67
+#, c-format
+msgid "[18] Square root\n"
+msgstr "[18] Raiz cuadrada\n"
+
+#: calc.c:68
+#, c-format
+msgid "[19] Power\n"
+msgstr "[19] Potencia\n"
+
+#: calc.c:50
+#, c-format
+msgid "[1] Addition\n"
+msgstr "[1] Adicion\n"
+
+#: calc.c:69
+#, c-format
+msgid "[20] Absolute value\n"
+msgstr "[20] Valor absoluto\n"
+
+#: calc.c:70
+#, c-format
+msgid "[21] floating point remainder (fmod)\n"
+msgstr "[21] punto resta flotante (fmod)\n"
+
+#: calc.c:71
+#, c-format
+msgid "[22] Ceil function\n"
+msgstr "[22] Funcion ceil \n"
+
+#: calc.c:72
+#, c-format
+msgid "[23] Floor function\n"
+msgstr "[23] Funcion piso\n"
+
+#: calc.c:73
+#, c-format
+msgid "[24] frexp\n"
+msgstr "[24] frexp\n"
+
+#: calc.c:74
+#, c-format
+msgid "[25] ldexp\n"
+msgstr "[25] ldexp\n"
+
+#: calc.c:75
+#, c-format
+msgid "[26] modf\n"
+msgstr "[26] modf\n"
+
+#: calc.c:76
+#, c-format
+msgid ""
+"[27] Exit\n"
+"\n"
+msgstr ""
+"[27] Salir\n"
+"\n"
+
+#: calc.c:51
+#, c-format
+msgid "[2] Subtraction\n"
+msgstr "[2] Substraccion\n"
+
+#: calc.c:52
+#, c-format
+msgid "[3] Multiplication\n"
+msgstr "[3] Multiplicacion\n"
+
+#: calc.c:53
+#, c-format
+msgid "[4] Division\n"
+msgstr "[4] Division\n"
+
+#: calc.c:54
+#, c-format
+msgid "[5] Sine\n"
+msgstr "[5] Seno\n"
+
+#: calc.c:55
+#, c-format
+msgid "[6] Cosine\n"
+msgstr "[6] Coseno\n"
+
+#: calc.c:56
+#, c-format
+msgid "[7] Tangent\n"
+msgstr "[7] Tangente\n"
+
+#: calc.c:57
+#, c-format
+msgid "[8] Arc sine\n"
+msgstr "[8] Arco seno\n"
+
+#: calc.c:58
+#, c-format
+msgid "[9] Arc cosine\n"
+msgstr "[9] Arco coseno\n"
